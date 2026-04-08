@@ -21,7 +21,7 @@
 
 ## GitHub Pages Link
 
-[Live Demo] 
+https://bargavisivaraman.github.io/comp-484-hw9/
 
 ## Screenshot
 
