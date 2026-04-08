@@ -26,10 +26,10 @@ document.getElementById("dateOutput").textContent = dateMessage;
 // ==========================
 
 // test values - some valid numbers, one invalid
-const value1 = "42";
-const value2 = "19.75";
-const value3 = "hello";
-const value4 = "100";
+const value1 = "56";
+const value2 = "23.89";
+const value3 = "world";
+const value4 = "150";
 
 // convert to numbers
 const num1 = Number(value1);
@@ -57,7 +57,7 @@ let result4 = "Original: '" + value4 + "' → Converted: " + num4 +
 // check if value is NaN and show message
 let nanMessage = "";
 if (Number.isNaN(num3)) {
-  nanMessage = "<p><strong>Note:</strong> The value 'hello' is not a valid number.</p>";
+  nanMessage = "<p><strong>Note:</strong> The value 'world' is not a valid number.</p>";
 }
 
 // combine all results
@@ -75,11 +75,11 @@ document.getElementById("numberConversionOutput").innerHTML = allResults;
 // ==========================
 
 // define grade scores
-const exam1 = 85;
-const exam2 = 92;
-const exam3 = 78;
-const homework = 88;
-const project = 95;
+const exam1 = 88;
+const exam2 = 91;
+const exam3 = 82;
+const homework = 86;
+const project = 94;
 
 // calculate total and average
 const totalScore = exam1 + exam2 + exam3 + homework + project;
